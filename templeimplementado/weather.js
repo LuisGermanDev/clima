@@ -211,7 +211,7 @@ const createWeathercard = (weatherItem, dailyForecasts) => {
       <div class="day">
         <p>${getDayName(dailyForecasts[3].date)}</p>
         <div class="tdia">${(dailyForecasts[3].temp - 273.15).toFixed(2)} °C</div>
-        <div class="imgdia"><img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="" /></div>
+        <div class="imgdia"><img src="" alt="" /></div>
       </div>
       <div class="day">
         <p>${getDayName(dailyForecasts[4].date)}</p>
