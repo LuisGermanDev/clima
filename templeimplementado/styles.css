@@ -1,6 +1,13 @@
-/* *{
+/* {
   border: 1px solid black;
 } */
+body{
+  height: 100vh;
+  background: url(../Service/img/nicholas-doherty-pONBhDyOFoM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .container{
     padding: 0 30px;
     display: flex;
